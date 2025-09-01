@@ -7,20 +7,23 @@
 // Che ci sia un array da qualche parte?
 // Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
-    
+function rollthedice() {        
     // GENERIAMO ALL'USER IL SUO NUMERO
     const userNumber = Math.floor(Math.random() * 6) + 1;
-    console.log(userNumber);
+    console.log('Il tuo numero é ' + userNumber);
     
     // GENERIAMO UN NUMERO DAL COMPUTER
     const pcNumber = Math.floor(Math.random() * 6) + 1;
-    console.log(pcNumber);
+    console.log('Il numero del pc é ' + pcNumber);
     
     // STABILIAMO UN VINCITORE --- IL PIÚ ALTO
     if (userNumber > pcNumber) {
         console.log('Hai vinto!');
-    } else if (pcNumber < userNumber) {
+    } else if (pcNumber > userNumber) {
         console.log('Hai perso!');
     } else {
         console.log('Pareggio!');
     }
+    console.log('----------------------');
+    
+}
