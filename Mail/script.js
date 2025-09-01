@@ -48,5 +48,5 @@ for (;;) {
     } else {
         console.log("Spiacente! questo utente non é nella lista degli invitati, ritenta")
     }
-    userEmail = prompt('Riprova con una diversa email')
+    userEmail = prompt('Riprova con una diversa')
 }
