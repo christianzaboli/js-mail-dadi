@@ -7,7 +7,6 @@
 // Che ci sia un array da qualche parte?
 // Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
-function rollthedice() {        
     // GENERIAMO ALL'USER IL SUO NUMERO
     const userNumber = Math.floor(Math.random() * 6) + 1;
     console.log('Il tuo numero é ' + userNumber);
@@ -25,5 +24,3 @@ function rollthedice() {
         console.log('Pareggio!');
     }
     console.log('----------------------');
-    
-}
